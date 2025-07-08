@@ -6,7 +6,7 @@
 
 # 📈 Customer Churn Analysis part 1
 
-## 🎯 Main goal: This project performs an in-depth exploratory data analysis (EDA) on a telecom company's customer dataset. The primary objective is to identify the key drivers of customer churn and transform these insights into actionable business strategies to improve customer retention.
+🎯 Main goal: This project performs an in-depth exploratory data analysis (EDA) on a telecom company's customer dataset. The primary objective is to identify the key drivers of customer churn and transform these insights into actionable business strategies to improve customer retention.
 
 Telecom Customer Churn Analysis
 This project performs an in-depth exploratory data analysis (EDA) on a telecom company's customer dataset. The primary objective is to identify the key drivers of customer churn and transform these insights into actionable business strategies to improve customer retention.
@@ -22,7 +22,7 @@ This project performs an in-depth exploratory data analysis (EDA) on a telecom c
 
 * Overall 26% of clients has churned.
 <div align = center>
-    <img src="https://github.com/user-attachments/assets/74e469c4-6220-4e80-a2dd-ccfed5df3dce", width="300">
+    <img src="https://github.com/user-attachments/assets/74e469c4-6220-4e80-a2dd-ccfed5df3dce", width="400">
 </div>
 </br>
 
@@ -33,36 +33,43 @@ This project performs an in-depth exploratory data analysis (EDA) on a telecom c
 </br>
 
 * Contract & Tenure are Decisive: The churn rate is highest for customers on month-to-month contracts and within their first 12 months of service. Customer loyalty increases significantly with longer tenure.
+<div align = center>
+    <img src="https://github.com/user-attachments/assets/38998a83-1d1c-4a6a-8282-98a50c4bc7d7", width="400">
+</div>
+</br>
+
 * Payment Method Influence: Customers paying via Electronic Check show a notably higher tendency to churn compared to those using automatic payment methods.
+<div align = center>
+    <img src="https://github.com/user-attachments/assets/0ff4820a-24b1-476c-9cdc-401469e71fec", width="400">
+</div>
+</br>
+
 * High-Risk Demographics: Senior citizens (65 years old or more) exhibit a significantly higher churn rate compared to younger customers.
+<div align = center>
+    <img src="https://github.com/user-attachments/assets/0918480b-1941-4a0d-b7ca-246f20f9f919", width="400">
+</div>
+</br>
 
 ## 💡 Strategic Recommendations
 ### Based on the findings, the following actions are recommended to reduce customer churn:
 
-Incentivize Long-Term Contracts: Develop campaigns offering discounts or perks to encourage month-to-month customers to switch to annual or two-year plans.
+- Encourage annual contracts:
 
-Enhance New Customer Onboarding: Implement a dedicated program to support and engage customers during their critical first 3-6 months to demonstrate value and build loyalty early.
+    Offer discounts or benefits (a free month, higher connection speed, technical support, etc.) for customers on monthly plans to switch to one or two-year contracts.
 
-Promote Service Bundles: Proactively offer bundles that include key support services to increase customer integration and make the service "stickier".
+- Improve new customer onboarding:
 
-Create Targeted Campaigns: Develop specific retention strategies for high-risk segments, such as senior citizens and customers using electronic checks.
+    Create a dedicated program for customers in their first 3 to 6 months to ensure they have a positive experience and understand the value of the services. Offer "Adhesion" service packages such as Technical Support and Online Security, especially for new customers or those on monthly plans.
 
-📈 Key Visualizations
-Churn Rate by Month of Tenure
-This line chart clearly shows that the churn rate is highest in the earliest months and stabilizes over time, highlighting the importance of early customer engagement.
+- Targeted Retention for Seniors:
 
-(You can place your churn_rate_by_tenure.png image here)
+    Develop specific communication or retention campaigns to meet the needs of senior citizens.
 
-Churn Rate by Contract Type
-This bar chart illustrates the dramatic difference in churn rates, with month-to-month customers being far more likely to leave than those on long-term contracts.
-
-(You can place your bar chart for contract churn here)
-
-🛠️ Technologies Used
-Python
+## 🛠️ Technologies Used
+Python version 3
 
 Pandas: For data manipulation and analysis.
 
 Matplotlib & Seaborn: For data visualization.
 
-Jupyter Notebook: As the development environment.
+Colab: As the development environment.
