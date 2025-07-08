@@ -73,3 +73,7 @@ Pandas: For data manipulation and analysis.
 Matplotlib & Seaborn: For data visualization.
 
 Colab: As the development environment.
+
+# Project versions:
+# 🔗 Colab:
+[Colab](https://github.com/daniel-neves-dev/alura_telecom_p1/blob/main/TelecomX_Data.ipynb)
