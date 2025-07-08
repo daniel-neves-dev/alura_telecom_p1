@@ -19,15 +19,19 @@ This project performs an in-depth exploratory data analysis (EDA) on a telecom c
 
 ## 📊 Key Findings
 ### The analysis successfully identified several key factors that strongly correlate with a customer's likelihood to churn:
+
 * Overall 26% of clients has churned.
-  
-<table>
-  <tr>
-    <td valign="top"><img src='"https://github.com/user-attachments/assets/74e469c4-6220-4e80-a2dd-ccfed5df3dce" '></td>
-  </tr>
-</table>
+<div align = center>
+    <img src="https://github.com/user-attachments/assets/74e469c4-6220-4e80-a2dd-ccfed5df3dce", width="300">
+</div>
+</br>
 
 * Dropouts occur mostly in the firt 12 months.
+<div align = center>
+    <img src="https://github.com/user-attachments/assets/d42cafc1-d14c-4f25-a63c-7a14e4393a75", width="800">
+</div>
+</br>
+
 * Contract & Tenure are Decisive: The churn rate is highest for customers on month-to-month contracts and within their first 12 months of service. Customer loyalty increases significantly with longer tenure.
 * Payment Method Influence: Customers paying via Electronic Check show a notably higher tendency to churn compared to those using automatic payment methods.
 * High-Risk Demographics: Senior citizens (65 years old or more) exhibit a significantly higher churn rate compared to younger customers.
